@@ -144,11 +144,12 @@ function showInstructions() {
    npm install axios cheerio
 
 🚀 Usage:
-1. Save this script as "scrape-uncode.js"
-2. Run: node scrape-uncode.js
+1. Save this script as "scrape.js"
+2. Run: node scrape.js
 
 📁 Output files:
    - uncode-icons.txt   (plain text list)
+   - uncode-icons-sort.txt   (plain text list)
    - uncode-icons.json  (structured JSON)
     `);
 }
