@@ -98,6 +98,7 @@ async function main() {
         
         // Save to files
         saveIconsToFile(icons);
+        saveIconsToFile(icons.sort(), 'uncode-icons-sort.txt');
         //saveIconsAsJSON(icons);
         
         // Additional statistics
